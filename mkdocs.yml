@@ -1,7 +1,7 @@
-site_name: My Documentation
+site_name: C3TO Production KB
 site_url: https://c3to-prod.github.io
-site_description: Documentation site
-site_author: Your Name
+site_description: C3TO Production Knowledge Base
+site_author: Sejin Kim
 
 theme:
   name: material
