@@ -1,37 +1,21 @@
-# Welcome to My Documentation
+# Welcome to the C3TO Production Knowledge Base
+Hopefully we can answer all of your questions here!
 
-Welcome to the documentation site! This is your homepage.
+## Sound
+* Midas M32
 
-## Quick Start
+## Screens
+* What's ProPresenter?
+* How to set an audience look
+* How to set a stage screen look
+* How to set blah blah blah
 
-Get started by exploring the documentation:
+## Lights
+* Onyx
+* Hog 4 
 
-- [Getting Started](getting-started.md) - Learn the basics
-- [About](about.md) - More information about this project
-
-## Features
-
-- **Easy to Use**: Simple and intuitive documentation structure
-- **Beautiful Design**: Modern Material theme with dark mode support
-- **Search**: Full-text search functionality
-- **Code Highlighting**: Syntax highlighting for code blocks
-
-## Example Code Block
-
-```python
-def hello_world():
-    print("Hello, World!")
-    return True
-```
-
-## Admonition Example
-
-!!! note "Note"
-    This is a note admonition. You can use different types like tip, warning, danger, etc.
-
-!!! tip "Pro Tip"
-    Use `mkdocs serve` to preview your documentation locally!
+## Collaboration
+For a [quick start](https://www.c3to-prod.github.io/getting-started.md), check out our guide.
 
 ## Next Steps
-
-Continue to the [Getting Started](getting-started.md) guide to learn more.
+It's in the side chapel (haha)
