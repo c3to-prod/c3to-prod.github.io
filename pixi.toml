@@ -2,7 +2,7 @@
 authors = ["skim2257 <skim2257>"]
 channels = ["conda-forge"]
 name = "c3to-prod.github.io"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
