@@ -2,18 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://c3to-prod.github.io/</loc>
-         <lastmod>2025-10-05</lastmod>
+         <lastmod>2025-10-15</lastmod>
     </url>
     <url>
-         <loc>https://c3to-prod.github.io/about/</loc>
-         <lastmod>2025-10-05</lastmod>
+         <loc>https://c3to-prod.github.io/kids/</loc>
+         <lastmod>2025-10-15</lastmod>
     </url>
     <url>
-         <loc>https://c3to-prod.github.io/ezekiel/</loc>
-         <lastmod>2025-10-05</lastmod>
-    </url>
-    <url>
-         <loc>https://c3to-prod.github.io/getting-started/</loc>
-         <lastmod>2025-10-05</lastmod>
+         <loc>https://c3to-prod.github.io/snippets/kids-soundboard-tabs/</loc>
+         <lastmod>2025-10-15</lastmod>
     </url>
 </urlset>
