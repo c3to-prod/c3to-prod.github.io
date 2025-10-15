@@ -1,21 +1,33 @@
-# Welcome to the C3TO Production Knowledge Base
-Hopefully we can answer all of your questions here!
+# [**CLICK ME for Midtown KIDS PRODUCTION HELP**](kids.md)
 
-## Sound
-* Midas M32
+??? "Incomplete content"
 
-## Screens
-* What's ProPresenter?
-* How to set an audience look
-* How to set a stage screen look
-* How to set blah blah blah
+    ## Sounds
+    * Who is Midas M32?
+    * How do we setup each channel?
+        * Vocals
+        * Line-in (Instrument, Dante input, etc)
+    * Compressors
+    * Equalizer
+    * Group control (Mix Buses vs DCA)
+    * Effects
 
-## Lights
-* Onyx
-* Hog 4 
+    ## Screens
+    * Who is ProPresenter?
+    * Presentations
+        * Making a new presentation
+        * Arrangements
+    * Library vs Playlist
+    * Output configuration (Midtown)
+    * Audience looks
+    * Stage screen
 
-## Collaboration
-For a [quick start](https://www.c3to-prod.github.io/getting-started.md), check out our guide.
+    ## Lights
+    * Who is ONYX?
+    * NX Touch 
 
-## Next Steps
-It's in the side chapel (haha)
+    ## Collaboration
+    For a [quick start](getting-started.md), check out our guide.
+
+    ## Next Steps
+    It's in the side chapel (haha)

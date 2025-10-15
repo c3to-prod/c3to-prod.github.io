@@ -5,6 +5,8 @@ site_author: Sejin Kim
 
 theme:
   name: material
+  logo: assets/icons/c3.png
+  favicon: assets/icons/c3-favicon.png
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -21,7 +23,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -34,13 +36,22 @@ theme:
 plugins:
   - search
   - tags
+  - mermaid2
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: 
+        - docs/
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
@@ -48,16 +59,17 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
   - attr_list
   - md_in_html
   - tables
-  - toc:
-      permalink: true
+  - toc
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
-  - About: about.md
+  - Midtown Gym: kids.md
 
 extra:
   social:
