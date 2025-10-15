@@ -18,22 +18,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup pixi
+        uses: prefix-dev/setup-pixi@v0.8.1
         with:
-          python-version: '3.12'
-
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/pixi.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: |
-          pip install mkdocs>=1.6.1 mkdocs-material>=9.6.21 pymdown-extensions>=10.16.1
+          pixi-version: v0.55.0
+          cache: true
+          cache-write: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
 
       - name: Build and deploy MkDocs
-        run: mkdocs gh-deploy --force
+        run: pixi run deploy
